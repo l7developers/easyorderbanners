@@ -1,0 +1,14 @@
+https://wiki.tucannadev.com/api;start
+http://108.61.143.179:9016/apidoc/
+
+GET ACCESS TOKEN :-
+Post : http://108.61.143.179:9016/oauth/access_token
+Post variable :-
+grant_type:client_credentials
+client_id:8WRdQmA2xDmdMlLF
+client_secret:tEB18MJSgrNCGQf2mxQJzHOiZLcsYoJ2
+Response : 
+{"access_token":"eDRjXA5wvXbHcYfJnaRfojPbGxlJQvlk6NMeq1cn","token_type":"Bearer","expires_in":3600}
+
+Once received, the access token must be specified in the Authorization HTTP header when calling any other API methods, like this:
+Authorization: Bearer RDdhuIuHyRQKKtLQmJteNT3D0xOzqvYwib01BGLi

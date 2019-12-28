@@ -1,0 +1,4 @@
+[29-May-2018 04:38:32 UTC] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING), expecting ',' or ';' in /home/octallabs/public_html/70/easyorderbanner/tflow/gettoken.php on line 14
+[29-May-2018 04:38:33 UTC] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING), expecting ',' or ';' in /home/octallabs/public_html/70/easyorderbanner/tflow/gettoken.php on line 14
+[29-May-2018 04:38:35 UTC] PHP Parse error:  syntax error, unexpected 'curl_close' (T_STRING), expecting ',' or ';' in /home/octallabs/public_html/70/easyorderbanner/tflow/gettoken.php on line 14
+[20-Dec-2019 03:56:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/easyordertt/easyorderbanners.com/tflow/updateorder.php on line 53

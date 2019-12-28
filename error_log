@@ -1,0 +1,141 @@
+[14-May-2019 13:44:23 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:23 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:32 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[14-May-2019 13:44:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [partials.front.css] not found. in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('partials.front....', Array)
+#1 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(128): Illuminate\View\FileViewFinder->find('partials.front....')
+#2 /home/easyordertt/beta.easyordertablethrows.com/storage/framework/views/89759b2dd4ef573172dc8a3c6552ee170f7ce862.php(11): Illuminate\View\Factory->make('partials.front....', Array)
+#3 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/easyorder...')
+#4 /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngin in /home/easyordertt/beta.easyordertablethrows.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[06-Jun-2019 06:24:45 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 91 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/Repository/ComposerRepository.php on line 583
+[12-Jul-2019 08:41:58 UTC] PHP Fatal error:  Interface 'Maatwebsite\Excel\Concerns\ToCollection' not found in /home/easyordertt/beta.easyordertablethrows.com/app/Helpers/UserImport.php on line 13
+[12-Jul-2019 08:46:10 UTC] PHP Fatal error:  Interface 'Maatwebsite\Excel\Concerns\ToCollection' not found in /home/easyordertt/beta.easyordertablethrows.com/app/Helpers/UserImport.php on line 13
+[12-Jul-2019 08:46:50 UTC] PHP Fatal error:  Interface 'Maatwebsite\Excel\Concerns\WithHeadingRow' not found in /home/easyordertt/beta.easyordertablethrows.com/app/Helpers/UserImport.php on line 13
+[24-Jul-2019 01:17:16 EST] PHP Fatal error:  Can't use method return value in write context in /home/easyordertt/easyorderbanners.com/app/Http/Controllers/OrderController.php on line 35
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[02-Dec-2019 18:36:00 UTC] PHP Warning:  Maximum number of allowable file uploads has been exceeded in Unknown on line 0
+[03-Dec-2019 19:56:26 EST] PHP Fatal error:  Cannot redeclare pr() (previously declared in /home/easyordertt/easyorderbanners.com/routes/web.php:453) in /home/easyordertt/easyorderbanners.com/routes/web.php on line 457
+[03-Dec-2019 19:56:34 EST] PHP Fatal error:  Cannot redeclare pr() (previously declared in /home/easyordertt/easyorderbanners.com/routes/web.php:453) in /home/easyordertt/easyorderbanners.com/routes/web.php on line 457
+[19-Dec-2019 17:24:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:24:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:25:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:25:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:25:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:25:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:25:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:26:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:26:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:26:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:27:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:27:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:29:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:29:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:29:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:29:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:29:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:30:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:30:16 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:31:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:31:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:31:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:32:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:32:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:32:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:32:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:32:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:33:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:35:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:35:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:35:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:39:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:39:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:39:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:40:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:40:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:40:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:40:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:40:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:40:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:40:29 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 98
+[19-Dec-2019 17:40:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:40:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:41:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:41:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:41:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:41:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:41:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:41:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607

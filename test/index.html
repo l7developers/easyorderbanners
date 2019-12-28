@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="apple-touch-icon" href="/easyorderbanner/test/logo.png"/>
+	<link rel="apple-touch-icon-precomposed" href="/easyorderbanner/test/logo.png"/>
+	<link rel="manifest" href="/easyorderbanner/test/manifest.json">   
+</head>
+<body>
+	This is test add to home screen
+</body>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
+      });
+  }
+</script>
+</html>

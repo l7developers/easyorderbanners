@@ -1,0 +1,58 @@
+Account Information:
+tFlow dashboard:  http://108.61.143.179:9016/#/dashboard 
+ 
+UN: dreed@easyorderbanners.com 
+PW: 4maui11
+
+API key: 8WRdQmA2xDmdMlLF
+Secret key: tEB18MJSgrNCGQf2mxQJzHOiZLcsYoJ2
+
+API : https://wiki.tucannadev.com/api;start
+http://108.61.143.179:9016/apidoc/
+
+
+
+---------------------------------------------------------------------------------------------------------
+ERP to API Integration for New Orders:
+Please review the following and let me know if you have any questions or additional needs.
+ 
+When a sales order has been completed, either through the website or manually, and production files have been uploaded then the following needs to happen.
+ 
+1.	The order appears in the ERP
+2.	Agent assigns order to Designer
+3.	A copy of the sales order (PDF) is emailed to the assigned designer
+4.	Artwork Status in ERP changes to "Files Received / Preflight"
+5.	Order information is pushed to the tFlow system where
+6.	A New Order is created within the tFLOW system
+7.	The following fields are automatically populated within the tFLOW Order:
+	a.	Order = Invoice Number
+	b.	Creation Date = Date of Order
+	c.	Planned Number of Jobs = Number of Job (line-item products) contained within the order
+	d.	Description = Customer's Name, Business Name
+	e.	REP Name = Agent Assigned to the Order
+8.	Once an Order has been created, the next automated step will be to add the "Jobs" to the order.
+	a.	For each item that has been purchased, a new job will need to be created within the ORDER. The following fields are automatically populated within the tFLOW Job:
+	b.	The artwork uploaded for that job is uploaded to tFLOW - mapped accordingly
+	c.	Job Name
+	d.	Description = The name of the product that was purchased.
+	e.	Notes = any notes that the customer added to their order
+	f.	Print Width = The width in INCHES for the product purchased (if applicable - some products will not have this)
+	g.	Print Height = The height in INCHES for the product purchased (if applicable - some products will not have this)
+	h.	Sales Rep = Agent Assigned to the Order
+	i.	Quantity = Quantity purchased of this product
+	j.	Shipping Address = shipping address for this product
+	k.	Phone Contact = Customer's phone number
+	l.	Email Contact = Customer's email address
+	m.	Easy Order Banner Finishing's = All finishing options for the product purchased. Finishing option are set in the website product custom options. This does not include printing or production options
+	n.	Easy Oder Banners Actual Print Size = Width and Height (in INCHES) from above.
+9.	Step 6 is repeated for each line item ordered.
+10.	When all job details have been added, the tFlow system should submit the job and which point the ERP to API integration for new orders is completed.
+ 
+ 
+ERP to API Integration for Approved Proofs:
+ 
+1.	At this point the tFlow system preflights the job and the designer assigned to the job reviews the files. When he deems that the files are ready for approval,  and sends them to the customer for approval he will send the customer an email (from tFlow) with a link to review/approve proof.
+2.	At the same time the ERP artwork status should automatically update to "Proof Sent to Customer"
+3.	When the customer has approved their proof(s) sent to them from the tFlow system tFlow updates with that status change. At this point, the ERP should also automatically update the artwork status to "Approved by Customer".
+4.	If the customer rejects their proof - then tFlow updates the status change and the ERP will automatically update the artwork status to "Rejected by Customer".
+5.	Once the job is approved the link for the product file(s) is sent back to the ERP

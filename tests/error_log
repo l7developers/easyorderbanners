@@ -1,0 +1,17 @@
+[19-Dec-2019 17:46:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 564
+[19-Dec-2019 17:47:54 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 17:47:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'easyorde'@'localhost' (using password: YES) in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 564
+[19-Dec-2019 17:48:02 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 17:55:15 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 18:07:38 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 18:11:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 564
+[19-Dec-2019 18:11:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 564
+[19-Dec-2019 18:11:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 607
+[19-Dec-2019 18:25:55 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 18:58:07 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 18:59:13 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 19:03:16 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 19:03:44 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[19-Dec-2019 19:04:06 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[20-Dec-2019 00:16:57 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98
+[20-Dec-2019 00:18:17 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/tests/phpminiadmin.php on line 98

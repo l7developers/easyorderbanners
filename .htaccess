@@ -1,0 +1,325 @@
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+	
+	RewriteCond %{HTTPS} !on
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+	RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+#Redirect to new pages:
+Redirect 301 /cat/advertising-banners https://easyorderbanners.com/advertising_banners
+Redirect 301 /cat/auto-business-banners https://easyorderbanners.com/auto-business-banners
+Redirect 301 /cat/Automotive-Feather-Flags https://easyorderbanners.com/automotive-feather-flags
+Redirect 301 /cat/Banner-Stands https://easyorderbanners.com/banner-stands
+Redirect 301 /cat/Billboard-Printing https://easyorderbanners.com/billboard-printing
+Redirect 301 /cat/business-banners https://easyorderbanners.com/business_banners
+Redirect 301 /cat/Business-Feather-Flags https://easyorderbanners.com/business-feather-flags
+Redirect 301 /cat/Canopy-Tents https://easyorderbanners.com/canopy-tents
+Redirect 301 /cat/Car-Wash-Feather-Flags https://easyorderbanners.com/car-wash-flags
+Redirect 301 /cat/construction-banners https://easyorderbanners.com/construction_banners
+Redirect 301 /cat/Coroplast-Signs https://easyorderbanners.com/coroplast-signs
+Redirect 301 /cat/Country-and-State-Feather-Flags https://easyorderbanners.com/country-and-state-feather-flags
+Redirect 301 /cat/Custom-Mesh-Banners https://easyorderbanners.com/custom-mesh-banners
+Redirect 301 /cat/Custom-Vinyl-Banners https://easyorderbanners.com/custom-vinyl-banners
+Redirect 301 /cat/Econo-Stock-Feather-Flags https://easyorderbanners.com/econo-stock-feather-flags
+Redirect 301 /cat/Espanol-Spanish-Feather-Flags https://easyorderbanners.com/espanol-spanish-feather-flags
+Redirect 301 /cat/event-banners https://easyorderbanners.com/event_banners
+Redirect 301 /cat/Fabric-Banners https://easyorderbanners.com/fabric-banners
+Redirect 301 /cat/Feather-Flags-Bases https://easyorderbanners.com/feather-flag-accessories
+Redirect 301 /cat/Furniture-Feather-Flags https://easyorderbanners.com/furniture-feather-flags
+Redirect 301 /cat/Holiday-Party-Feather-Flags https://easyorderbanners.com/holiday-party-feather-flags
+Redirect 301 /cat/Military-Feather-Flags https://easyorderbanners.com/military-feather-flags
+Redirect 301 /cat/Open-Feather-Flags https://easyorderbanners.com/open-feather-flags
+Redirect 301 /cat/Oversized-Vinyl-Banners https://easyorderbanners.com/oversized-vinyl-banners
+Redirect 301 /cat/Pole-Banners https://easyorderbanners.com/pole-banners
+Redirect 301 /cat/real-estate-banners https://easyorderbanners.com/real_estate_banners
+Redirect 301 /cat/Real-Estate-Feather-Flags https://easyorderbanners.com/real-estate-feather-flags
+Redirect 301 /cat/religious-banners https://easyorderbanners.com/religious_banners
+Redirect 301 /cat/Restaurant-Feather-Flags https://easyorderbanners.com/restaurant-feather-flags
+Redirect 301 /cat/Retractors-Banner-Stands https://easyorderbanners.com/retractable-banner-stands
+Redirect 301 /cat/Sail-Sign-Feather-Flag-Bases https://easyorderbanners.com/straight-sail-sign-feather-flags
+Redirect 301 /cat/Sail-Sign-Flutter-Flag-Bases https://easyorderbanners.com/feather-flag-accessories
+Redirect 301 /cat/Sail-Signs-flutter-flags https://easyorderbanners.com/convex-sail-sign-feather-flags
+Redirect 301 /cat/sale-banners https://easyorderbanners.com/sale_banners
+Redirect 301 /cat/Sale-Feather-Flags https://easyorderbanners.com/sale-feather-flags
+Redirect 301 /cat/school-banners https://easyorderbanners.com/school_banners
+Redirect 301 /cat/Solid-Color-and-Checkerboard-Feather-Flags https://easyorderbanners.com/solid-color-and-checkerboard-feather-flags
+Redirect 301 /cat/sports-team-banners https://easyorderbanners.com/sports_team_banners
+Redirect 301 /cat/Table-Covers https://easyorderbanners.com/table-covers
+Redirect 301 /cat/Telescoping-Banner-Stands https://easyorderbanners.com/telescoping-banner-stands
+Redirect 301 /cat/Tent-Accessories https://easyorderbanners.com/tent-accessories
+Redirect 301 /cat/trade-show-banners https://easyorderbanners.com/trade_show_banners
+Redirect 301 /cat/vehicle-graphics https://easyorderbanners.com/vehicle-graphics
+Redirect 301 /cat/window-signs https://easyorderbanners.com/window-signs
+Redirect 301 /cat/X-Stands https://easyorderbanners.com/x-stands
+Redirect 301 /product/10-x-10-Canopy-Tent https://easyorderbanners.com/10-x-10-canopy-tent
+Redirect 301 /product/10-x-15-Canopy-Tent https://easyorderbanners.com/10-x-15-canopy-tent
+Redirect 301 /product/10-x-20-Canopy-Tent https://easyorderbanners.com/10-x-20-canopy-tent
+Redirect 301 /product/100HandWash-Feather-Flag https://easyorderbanners.com/100-hand-wash-feather-flag
+Redirect 301 /product/10x10-Full-Back-Wall https://easyorderbanners.com/full-back-wall-10x10
+Redirect 301 /product/10x10-Half-Wall https://easyorderbanners.com/10-half-wall
+Redirect 301 /product/10x8-Telescoping-Banner-stand-with-f https://easyorderbanners.com/8-x-8-telescoping-banner-stand
+Redirect 301 /product/12-x-18-Coroplast-Sign https://easyorderbanners.com/12-x-18-full-color-coroplast-sign
+Redirect 301 /product/12x18-Magnetic-Car-Signs https://easyorderbanners.com/magnetic-car-signs
+Redirect 301 /product/13-oz-banner https://easyorderbanners.com/13-oz-standard-vinyl-banners
+Redirect 301 /product/13-oz-Billboard-Printing-Over-14--H https://easyorderbanners.com/oversized-13-oz-vinyl-billboard-printing
+Redirect 301 /product/13-oz-Billboard-Printing-Up-To-14-- https://easyorderbanners.com/7-oz-vinyl-billboard-printing
+Redirect 301 /product/13oz-oversized-banner https://easyorderbanners.com/13oz-standard-vinyl-banner-oversized
+Redirect 301 /product/18--wide-double-sided-only https://easyorderbanners.com/18-oz-premium-vinyl-banners
+Redirect 301 /product/18-x-24-Coroplast-Sign https://easyorderbanners.com/18-x-24-full-color-coroplast-sign
+Redirect 301 /product/18-x-24-Magnetic-Car-Signs https://easyorderbanners.com/magnetic-car-signs
+Redirect 301 /product/18oz-oversized-banner https://easyorderbanners.com/18oz-premium-vinyl-banner-oversized-300-sf
+Redirect 301 /product/18ozbanner https://easyorderbanners.com/18-oz-premium-vinyl-banners
+Redirect 301 /product/23x66-Standard-Retractor https://easyorderbanners.com/23-x-66-standard-retractable-banner-stand
+Redirect 301 /product/24-x-24-Coroplast-Sign https://easyorderbanners.com/24-x-24-full-color-coroplast-sign
+Redirect 301 /product/24x81-Standard-Retractor https://easyorderbanners.com/24-x-81-standard-retractable-banner-stand
+Redirect 301 /product/33x81-Standard-Retractor https://easyorderbanners.com/33-x-81-standard-retractable-banner-stand
+Redirect 301 /product/47x81-Standard-Retractor https://easyorderbanners.com/47-x-81-standard-retractable-banner-stand
+Redirect 301 /product/4x4-Feather-Flag https://easyorderbanners.com/4x4-feather-flag
+Redirect 301 /product/6--Full-Color-Dye-Sub-Fitted-Table-C https://easyorderbanners.com/6-wide-4-sided-fitted-table-throw
+Redirect 301 /product/6-Table-Cover-Drape https://easyorderbanners.com/6-wide-4-sided-drape-table-throw
+Redirect 301 /product/8--Full-Color-Dye-Sub-Fitted-Table-C https://easyorderbanners.com/8-wide-4-sided-fitted-table-throw
+Redirect 301 /product/8-Table-Cover-Drape https://easyorderbanners.com/8-wide-4-sided-drape-table-throw
+Redirect 301 /product/8x8-Telescoping-Banner-stand-with-fabric https://easyorderbanners.com/8-x-8-telescoping-banner-stand
+Redirect 301 /product/9-oz-Heavy-Duty-Mesh-Banner---Overs https://easyorderbanners.com/9oz-heavy-duty-mesh-banner-oversized-300-sf
+Redirect 301 /product/9-oz-Heavy-Duty-Mesh-Banners https://easyorderbanners.com/9-oz-heavy-duty-mesh-banners
+Redirect 301 /product/ACService-Feather-Flag https://easyorderbanners.com/ac-service-feather-flag
+Redirect 301 /product/Alignment-Feather-Flag https://easyorderbanners.com/alignment-feather-flag
+Redirect 301 /product/American1-Feather-Flag https://easyorderbanners.com/american-flag-1-feather-flag
+Redirect 301 /product/American2-Feather-Flag https://easyorderbanners.com/american-flag-2-feather-flag
+Redirect 301 /product/ApartmentsAvailable-Feather-Flag https://easyorderbanners.com/apartments-available-feather-flag
+Redirect 301 /product/ATM-Feather-Flag https://easyorderbanners.com/atm-feather-flag
+Redirect 301 /product/AutoBody-Feather-Flag https://easyorderbanners.com/auto-body-feather-flag
+Redirect 301 /product/AutoLoans-Feather-Flag https://easyorderbanners.com/auto-loans-feather-flag
+Redirect 301 /product/AutoRepair-Feather-Flag https://easyorderbanners.com/auto-repair-feather-flag
+Redirect 301 /product/AutoService-Feather-Flag https://easyorderbanners.com/auto-service-feather-flag
+Redirect 301 /product/AutoTint-Feather-Flag https://easyorderbanners.com/auto-tint-feather-flag
+Redirect 301 /product/BacktoSchool-Feather-Flag https://easyorderbanners.com/back-to-school-feather-flag
+Redirect 301 /product/BBQ-Feather-Flag https://easyorderbanners.com/bbq-feather-flag
+Redirect 301 /product/Beer-Feather-Flag https://easyorderbanners.com/beer-feather-flag
+Redirect 301 /product/BestBuys-auto-Feather-Flag https://easyorderbanners.com/best-buys-feather-flag
+Redirect 301 /product/BestBuys-Feather-Flag https://easyorderbanners.com/best-buy-feather-flag
+Redirect 301 /product/BigSale-Feather-Flag https://easyorderbanners.com/big-sale-feather-flag
+Redirect 301 /product/BlackCat-Feather-Flag https://easyorderbanners.com/black-cat-feather-flag
+Redirect 301 /product/BlackCheckerboard-Feather-Flag https://easyorderbanners.com/black-checkerboard-feather-flag
+Redirect 301 /product/BlackGreenCheckerboard-Feather-Flag https://easyorderbanners.com/black-green-checkerboard-feather-flag
+Redirect 301 /product/BlackSolid-Feather-Flag https://easyorderbanners.com/black-solid-feather-flag
+Redirect 301 /product/BlackYellowCheckerboard-Feather-Flag https://easyorderbanners.com/black-yellow-checkerboard-feather-flag
+Redirect 301 /product/BlueOpen-Feather-Flag https://easyorderbanners.com/blue-open-feather-flag
+Redirect 301 /product/Bogo-Feather-Flag https://easyorderbanners.com/bogo-feather-flag
+Redirect 301 /product/Brakes-Feather-Flag https://easyorderbanners.com/brakes-feather-flag
+Redirect 301 /product/Burritos-Feather-Flag https://easyorderbanners.com/burritos-feather-flag
+Redirect 301 /product/Busmark-5800-Self-Adhesive-Vinyl https://easyorderbanners.com/busmark-5800-self-adhesive-vinyl
+Redirect 301 /product/CabinetSale-Feather-Flag https://easyorderbanners.com/cabinets-sale-feather-flag
+Redirect 301 /product/CaliforniaRepublic-Feather-Flag https://easyorderbanners.com/california-republic-feather-flag
+Redirect 301 /product/Canada-Feather-Flag https://easyorderbanners.com/canada-feather-flag
+Redirect 301 /product/Car-Wash--Feather-Flag https://easyorderbanners.com/car-wash-1-feather-flag
+Redirect 301 /product/Car-Wash-2-Feather-Flag https://easyorderbanners.com/car-wash-2-feather-flag
+Redirect 301 /product/Carpet-Feather-Flag https://easyorderbanners.com/carpet-feather-flag
+Redirect 301 /product/CarWash3-Feather-Flag https://easyorderbanners.com/car-wash-3-feather-flag
+Redirect 301 /product/CashForGold-Feather-Flag https://easyorderbanners.com/cash-for-gold-feather-flag
+Redirect 301 /product/Ceramics-Feather-Flag https://easyorderbanners.com/ceramics-feather-flag
+Redirect 301 /product/ChristmasTrees-Feather-Flag https://easyorderbanners.com/christmas-trees-feather-flag
+Redirect 301 /product/Clearance-Feather-Flag https://easyorderbanners.com/clearance-feather-flag
+Redirect 301 /product/Coffee-Feather-Flag https://easyorderbanners.com/coffee-feather-flag
+Redirect 301 /product/CondoForSale-Feather-Flag https://easyorderbanners.com/condo-for-sale-feather-flag
+Redirect 301 /product/Costumes-Feather-Flag https://easyorderbanners.com/costumes-feather-flag
+Redirect 301 /product/Countertops-Feather-Flag https://easyorderbanners.com/countertops-feather-flag
+Redirect 301 /product/Cross-Feather-Flag https://easyorderbanners.com/cross-feather-flag
+Redirect 301 /product/Custom-Static-Clings https://easyorderbanners.com/custom-static-clings
+Redirect 301 /product/DayCare-Feather-Flag https://easyorderbanners.com/day-care-feather-flag
+Redirect 301 /product/DiningSale-Feather-Flag https://easyorderbanners.com/dining-sale-feather-flag
+Redirect 301 /product/DriveThru-Feather-Flag https://easyorderbanners.com/drive-thru-feather-flag
+Redirect 301 /product/DriveThruLiquor-Feather-Flag https://easyorderbanners.com/drive-thru-liquor-feather-flag
+Redirect 301 /product/EasterSale-Feather-Flag https://easyorderbanners.com/easter-sale-feather-flag
+Redirect 301 /product/EasyFinance-Feather-Flag https://easyorderbanners.com/easy-finance-feather-flag
+Redirect 301 /product/Espresso-Feather-Flag https://easyorderbanners.com/easy-finance-feather-flag
+Redirect 301 /product/Feather-Flag-Tent-Frame-Mount https://easyorderbanners.com/tent-sail-flag-mount-kit
+Redirect 301 /product/Fireworks-Feather-Flag https://easyorderbanners.com/fireworks-feather-flag
+Redirect 301 /product/FirstAid-Feather-Flag https://easyorderbanners.com/first-aid-feather-flag
+Redirect 301 /product/FlowerSale-Feather-Flag https://easyorderbanners.com/flower-sale-feather-flag
+Redirect 301 /product/ForLease-auto-Feather-Flag https://easyorderbanners.com/for-lease-feather-flag
+Redirect 301 /product/ForLease-Feather-Flag https://easyorderbanners.com/for-lease-feather-flags
+Redirect 301 /product/FreeWifi-Feather-Flag https://easyorderbanners.com/free-wifi-feather-flag
+Redirect 301 /product/FrozenYogurt-Feather-Flag https://easyorderbanners.com/frozen-yogurt-feather-flag
+Redirect 301 /product/Full-Back-Wall-10-x15 https://easyorderbanners.com/full-back-wall-10x15
+Redirect 301 /product/Full-Back-Wall-10-x20 https://easyorderbanners.com/full-back-wall-10x20
+Redirect 301 /product/GrandOpening-Feather-Flag https://easyorderbanners.com/grand-opening-feather-flag
+Redirect 301 /product/GrayCamo1-Feather-Flag https://easyorderbanners.com/gray-camo-1-feather-flag
+Redirect 301 /product/GrayCamo2-Feather-Flag https://easyorderbanners.com/gray-camo-2-feather-flag
+Redirect 301 /product/GreenCamo1-Feather-Flag https://easyorderbanners.com/green-camo-1-feather-flag
+Redirect 301 /product/GreenCamo2-Feather-Flag https://easyorderbanners.com/green-camo-2-feather-flag
+Redirect 301 /product/H-Stands https://easyorderbanners.com/h-stands
+Redirect 301 /product/HablamosEspano-Feather-Flag https://easyorderbanners.com/hablamos-espano-feather-flag
+Redirect 301 /product/HalloweenGhost-Feather-Flag https://easyorderbanners.com/halloween-ghost-feather-flag
+Redirect 301 /product/HalloweenPumpkins-Feather-Flag https://easyorderbanners.com/halloween-pumpkins-feather-flag
+Redirect 301 /product/HalloweenPumpkins2-Feather-Flag https://easyorderbanners.com/halloween-pumpkins-2-feather-flag
+Redirect 301 /product/HandWash-Feather-Flag https://easyorderbanners.com/hand-wash-feather-flag
+Redirect 301 /product/Hardwood-Feather-Flag https://easyorderbanners.com/hardwood-feather-flag
+Redirect 301 /product/HoHoHo-Feather-Flag https://easyorderbanners.com/ho-ho-ho-feather-flag
+Redirect 301 /product/HolidaySale-Feather-Flag https://easyorderbanners.com/holiday-sale-feather-flag
+Redirect 301 /product/HotBuys-auto-Feather-Flag https://easyorderbanners.com/hot-buys-feather-flag
+Redirect 301 /product/HotBuys-Feather-Flag https://easyorderbanners.com/hot-buy-feather-flag
+Redirect 301 /product/HotDogs-Feather-Flag https://easyorderbanners.com/hot-dogs-feather-flag
+Redirect 301 /product/HotWings-Feather-Flag https://easyorderbanners.com/hot-wings-feather-flag
+Redirect 301 /product/IceCream-Feather-Flag https://easyorderbanners.com/ice-cream-feather-flag
+Redirect 301 /product/InspectionStation-Feather-Flag https://easyorderbanners.com/inspection-station-feather-flag
+Redirect 301 /product/InsuranceAseguranza-Feather-Flag https://easyorderbanners.com/insurance-aseguranza-feather-flag
+Redirect 301 /product/LightBlueSolid-Feather-Flag https://easyorderbanners.com/light-blue-solid-feather-flag
+Redirect 301 /product/LightGreenSolid-Feather-Flag https://easyorderbanners.com/light-green-solid-feather-flag
+Redirect 301 /product/LoneStar-Feather-Flag https://easyorderbanners.com/lone-star-feather-flag
+Redirect 301 /product/Look-Feather-Flag https://easyorderbanners.com/look-feather-flag
+Redirect 301 /product/Luxury-Carry-Bag-w-wheels https://easyorderbanners.com/premium-trolley-bag
+Redirect 301 /product/Mattress-Feather-Flag https://easyorderbanners.com/mattress-feather-flag
+Redirect 301 /product/Mexican-Feather-Flag https://easyorderbanners.com/mexican-feather-flag
+Redirect 301 /product/NailSalon-Feather-Flag https://easyorderbanners.com/nail-salon-feather-flag
+Redirect 301 /product/NewYork-Feather-Flag https://easyorderbanners.com/new-york-feather-flag
+Redirect 301 /product/NoCreditBadCredit-Feather-Flag https://easyorderbanners.com/no-credit-bad-credit-feather-flag
+Redirect 301 /product/NowEnrolling-Feather-Flag https://easyorderbanners.com/now-enrolling-feather-flag
+Redirect 301 /product/NowLeasing-auto-Feather-Flag https://easyorderbanners.com/now-leasing-feather-flag
+Redirect 301 /product/NowOpen-Feather-Flag https://easyorderbanners.com/now-open-feather-flag
+Redirect 301 /product/Open-Feather-Flag https://easyorderbanners.com/open-feather-flag
+Redirect 301 /product/Open247-Feather-Flag https://easyorderbanners.com/open-24-7-feather-flag
+Redirect 301 /product/Open24Hours-Feather-Flag https://easyorderbanners.com/open-24-hour-feather-flag
+Redirect 301 /product/OpenHouse-Feather-Flag https://easyorderbanners.com/open-house-feather-flags
+Redirect 301 /product/OpenHouse2-Feather-Flag https://easyorderbanners.com/open-house-2-feather-flag
+Redirect 301 /product/Parking-Feather-Flag https://easyorderbanners.com/parking-feather-flag
+Redirect 301 /product/PartySupplies-Feather-Flag https://easyorderbanners.com/party-supplies-feather-flag
+Redirect 301 /product/PawnShop-Feather-Flag https://easyorderbanners.com/pawn-shop-feather-flag
+Redirect 301 /product/PetGrooming-Feather-Flag https://easyorderbanners.com/pet-grooming-feather-flag
+Redirect 301 /product/Pizza-Feather-Flag https://easyorderbanners.com/pizza-feather-flag
+Redirect 301 /product/Popcorn-Feather-Flag https://easyorderbanners.com/popcorn-feather-flag
+Redirect 301 /product/Produce-Feather-Flag https://easyorderbanners.com/produce-feather-flag
+Redirect 301 /product/PublicNotary-Feather-Flag https://easyorderbanners.com/public-notary-feather-flag
+Redirect 301 /product/PurpleCheckerboard-Feather-Flag https://easyorderbanners.com/purple-checkerboard-feather-flag
+Redirect 301 /product/RedBlueStripe-Feather-Flag https://easyorderbanners.com/red-blue-checkerboard-feather-flag
+Redirect 301 /product/Sale1-Feather-Flag https://easyorderbanners.com/angled-sail-sign-feather-flags
+Redirect 301 /product/Sale2-Feather-Flag https://easyorderbanners.com/straight-sail-sign-feather-flags
+Redirect 301 /product/Sale3-Feather-Flag https://easyorderbanners.com/convex-sail-sign-feather-flags
+Redirect 301 /product/Save-Feather-Flag https://easyorderbanners.com/save-feather-flag
+Redirect 301 /product/Seafood-Feather-Flag https://easyorderbanners.com/seafood-feather-flag
+Redirect 301 /product/Side-Rails https://easyorderbanners.com/half-10ft-side-wall-bars--clamps-1-side
+Redirect 301 /product/SmogCheck-Feather-Flag https://easyorderbanners.com/smog-check-feather-flag
+Redirect 301 /product/SmokeShop-Feather-Flag https://easyorderbanners.com/smoke-shop-feather-flag
+Redirect 301 /product/Smoothies-Feather-Flag https://easyorderbanners.com/smoothies-feather-flag
+Redirect 301 /product/SnowCones-Feather-Flag https://easyorderbanners.com/snow-cones-feather-flag
+Redirect 301 /product/SofaSale-Feather-Flag https://easyorderbanners.com/sofa-sale-feather-flag
+Redirect 301 /product/SpringSale-Feather-Flag https://easyorderbanners.com/spring-sale-feather-flag
+Redirect 301 /product/Storage-Feather-Flag https://easyorderbanners.com/storage-feather-flag
+Redirect 301 /product/StPatricksDay-Feather-Flag https://easyorderbanners.com/st-patricks-day-feather-flag
+Redirect 301 /product/SummerSale-Feather-Flag https://easyorderbanners.com/summer-sale-feather-flag
+Redirect 301 /product/Sushi-Feather-Flag https://easyorderbanners.com/sushi-feather-flag
+Redirect 301 /product/Tacos-Feather-Flag https://easyorderbanners.com/tacos-feather-flag
+Redirect 301 /product/Tamales-Feather-Flag https://easyorderbanners.com/tamales-feather-flag
+Redirect 301 /product/TanCamo-Feather-Flag https://easyorderbanners.com/tan-camo-feather-flag
+Redirect 301 /product/Tattoos-Feather-Flag https://easyorderbanners.com/tattoos-feather-flag
+Redirect 301 /product/TaxService-Feather-Flag https://easyorderbanners.com/tax-service-feather-flag
+Redirect 301 /product/TiresAlignment-Feather-Flag https://easyorderbanners.com/alignment-feather-flag
+Redirect 301 /product/Vacancy-Feather-Flag https://easyorderbanners.com/vacancy-feather-flag
+Redirect 301 /product/Vehicle-Wraps--3M%EF%BF%BD-Controltac%EF%BF%BD-w-la https://easyorderbanners.com/vehicle-wraps-3m-controltac
+Redirect 301 /product/Vehicle-Wraps--3Mâ„¢-Controltacâ„¢-w-la https://easyorderbanners.com/vehicle-wraps-3m-controltac
+Redirect 301 /product/VentaLoca-Feather-Flag https://easyorderbanners.com/venta-loca-feather-flag
+Redirect 301 /product/WeBuyCars1-Feather-Flag https://easyorderbanners.com/we-buy-cars-feather-flag
+Redirect 301 /product/Welcome1-Feather-Flag https://easyorderbanners.com/welcome-blue-feather-flag
+Redirect 301 /product/Welcome2-Feather-Flag https://easyorderbanners.com/welcome-feather-flag
+Redirect 301 /product/Window-Perforation-Film https://easyorderbanners.com/window-perforation-film
+Redirect 301 /product/Winery-Feather-Flag https://easyorderbanners.com/winery-feather-flag
+Redirect 301 /product/X-Stand-24x63 https://easyorderbanners.com/x-stand-24-x-63
+Redirect 301 /product/X-Stand-32x71 https://easyorderbanners.com/x-stand-32-x-71
+Redirect 301 /product/OpenHouseA1-Feather-Flag https://easyorderbanners.com/open-house-feather-flag
+Redirect 301 /product/Appliance-Feather-Flag https://easyorderbanners.com/appliance-feather-flag
+Redirect 301 /product/AutoDetail-Feather-Flag https://easyorderbanners.com/auto-detail-feather-flag
+Redirect 301 /product/AvailablePurple-Feather-Flag https://easyorderbanners.com/available-purple-feather-flag
+Redirect 301 /product/24--wide-double-sided-only https://easyorderbanners.com/24-wide-double-sided-pole-banner
+Redirect 301 /product/30--wide-double-sided-only https://easyorderbanners.com/30-wide-double-sided-pole-banner
+Redirect 301 /product/7oz-Banners-over-14-feet https://easyorderbanners.com/oversized-7-oz-vinyl-billboard-printing
+Redirect 301 /product/7oz-Banners-up-to-14-feet https://easyorderbanners.com/7-oz-vinyl-billboard-printing
+Redirect 301 /product/9-oz-Fabric-Banner https://easyorderbanners.com/fabric-banners
+Redirect 301 /product/9oz-oversized-banner https://easyorderbanners.com/9-oz-heavy-duty-mesh-banner-over-300-sf
+Redirect 301 /product/9ozbanner https://easyorderbanners.com/9-oz-heavy-duty-mesh-banners
+Redirect 301 /product/Base-1 https://easyorderbanners.com/light-weight-scissor-base
+Redirect 301 /product/Base-10 https://easyorderbanners.com/heavy-duty-scissor-base
+Redirect 301 /product/Base-2 https://easyorderbanners.com/ground-spike
+Redirect 301 /product/COPY_9-oz-Polyester-Fabric-Banner https://easyorderbanners.com/product/COPY_9-oz-Polyester-Fabric-Banner
+Redirect 301 /product/Poly-600---Indoor-Outdoor-Fabric-Banner https://easyorderbanners.com/fabric-banners
+Redirect 301 /product/S51EB-Flag https://easyorderbanners.com/tear-drop-sail-sign-flags
+Redirect 301 /product/S52EB-Flag https://easyorderbanners.com/angled-sail-sign-feather-flags
+Redirect 301 /product/S56EB-Flag https://easyorderbanners.com/rectangle-sail-sign-flags
+Redirect 301 /product/Satin-Sheen-Indoor-Fabric-Banner https://easyorderbanners.com/shiny-satin-fabric-banners
+Redirect 301 /product/Soft-Knit--matte---Indoor-Fabric-Banner https://easyorderbanners.com/250g-soft-knitted-polyester-fabric-banners
+Redirect 301 /product/Rain-Gutter /
+Redirect 301 /product/Sail-Sign-Luxury-Carry-Bag /
+Redirect 301 /13oz-standard-vinyl-banner-oversized https://easyorderbanners.com/13oz-oversized-vinyl-banners-300-sf
+Redirect 301 /18oz-premium-vinyl-banner-oversized-300-sf https://easyorderbanners.com/18oz-heavy-duty-oversized--vinyl-banners-300-sq-ft
+Redirect 301 /18-oz-premium-vinyl-banners https://easyorderbanners.com/18-oz-heavy-duty-vinyl-banners
+Redirect 301 /product/COPY_9-oz-Polyester-Fabric-Banner https://easyorderbanners.com/250g-soft-knitted-polyester-fabric-banners
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 32M
+   php_value post_max_size 5000M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php71"
+   php_value upload_max_filesize 5000M
+   php_flag zlib.output_compression Off
+   php_flag asp_tags Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 32M
+   php_value post_max_size 5000M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php71"
+   php_value upload_max_filesize 5000M
+   php_flag zlib.output_compression Off
+   php_flag asp_tags Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

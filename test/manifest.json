@@ -1,0 +1,19 @@
+{
+  "short_name": "FitMeNow",
+  "name": "FitMeNow",
+  "icons": [
+    {
+      "src":"/easyorderbanner/test/logo.png",
+      "sizes": "192*192",
+      "type": "image/png"
+    }
+  ],
+  "splash_screens": [{
+        "src": "/easyorderbanner/test/splash.png",
+        "sizes": "320x240"
+    }],
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2196f3",
+  "display": "standalone"
+}

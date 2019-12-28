@@ -1,0 +1,5 @@
+[19-Dec-2019 17:24:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 564
+[19-Dec-2019 17:24:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 607
+[19-Dec-2019 17:25:28 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 98
+[19-Dec-2019 17:40:03 UTC] PHP Warning:  A non-numeric value encountered in /home/easyordertt/easyorderbanners.com/config/phpminiadmin.php on line 98
