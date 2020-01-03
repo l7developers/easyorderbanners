@@ -694,7 +694,7 @@ class MyAccountController extends Controller
 				$files_url = '';
 				$file_count = 1;
 
-				$credentials = new Credentials('AKIAJEFF5BAZ272XEWGQ', 'bm7VT4PnuDnyvjK48IR6PXdDItp8zxkRDts0GRLs');
+				$credentials = new Credentials('AKIAIO7JHTMKZZ5GL5TQ', 'G9FAY3/X1CIS080f8wCMpXPA6Nn6z9jpEbC9l7uj');
 
 				$s3 = new S3Client([
 				    'version'     => 'latest',
