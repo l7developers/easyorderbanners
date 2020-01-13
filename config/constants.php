@@ -9,7 +9,9 @@ $siteUrl = @$_SERVER['APP_URL'];
 
 $custom_category_id = 53;
 $custom_product_id = 271;
-$phantomjs_path ='/home/easyordertt/easyorderbanners.com/phantomjs/bin/phantomjs';
+$phantomjs_path ='/var/www/html/easyorderbanners/phantomjs/bin/phantomjs';
+$phantomjs2_path ='/home/easyordertt/easyorderbanners.com/phantomjs/bin/ver2/phantomjs';
+$pagesJS2 = '/home/easyordertt/easyorderbanners.com/pages2.js';
 if($_SERVER['SERVER_NAME'] == '192.168.1.77')
 {
     $phantomjs_path ='phantomjs';

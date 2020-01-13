@@ -2990,7 +2990,7 @@ class OrdersController extends Controller
 
 			$params = array('slug'=>'order_assign_to_agent',
 							'to'=>$agent->email,
-							'pdf'=>$file_path,
+                            'pdf'=>$file_path,
 							'params'=>array(
 										'{{name}}'=>$data['agent_name'],
 										'{{order_id}}'=>$data['order_id'],
@@ -3036,7 +3036,7 @@ class OrdersController extends Controller
 
 			$params = array('slug'=>'order_assign_to_designer',
 							'to'=>$designer->email,
-							'pdf'=>$file_path,
+                            'pdf'=>$file_path,
 							'params'=>array(
 										'{{name}}'=>$data['designer_name'],
 										'{{order_id}}'=>$data['order_id'],
@@ -6666,12 +6666,13 @@ class OrdersController extends Controller
 			$file_name = 'EasyOrderBanners_Estimate_'.$id.'.pdf';
 		}
 
-		$file_path = "public/pdf/front/order_receipt/".$file_name;
+        $file_path = "public/pdf/front/order_receipt/".$file_name;
 				
-		$exe = config('constants.phantomjs_path');
+		$exe = config('constants.phantomjs2_path');
 		
-		$output = exec("$exe --ssl-protocol=any --ignore-ssl-errors=yes pages.js  $url $file_path 2>&1");
-		
+        $pages = ('constants.pagesJS2');
+        $output = exec("$exe --ssl-protocol=any --ignore-ssl-errors=yes $pages $url $file_path 2>&1");
+        
 		return $file_name;
 	}
 	
